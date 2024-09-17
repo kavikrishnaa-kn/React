@@ -1,8 +1,15 @@
 import NavBar from "./components/NavBar";
 const App = () => {
-  const Appname = "M-A-X"
+  const appdata = {
+    Appname: "M-A-X",
+    Appdata: "Data"
+  }
   return(
     <>
+      <div className="h-auto w-auto flex flex-col justify-center  items-center">
+        <NavBar data={data} />
+      </div>
+        
 
       <div className="w-screen h-screen flex items-center justify-center bg-[#00246B]">
         <div className="h-[50%] w-[20%] flex flex-col items-center justify-center rounded-[30px] bg-[#CADCFC]">
